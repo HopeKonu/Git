@@ -1,0 +1,61 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage ('learning to fly') {
+        steps{
+            echo "change happens"
+         }
+         }
+         stage ('run like the wind') {
+        steps{
+            echo "bolt"
+         }
+         }
+         stage ('old things have passed') {
+        steps{
+            echo "all is new"
+         }
+         }
+         stage ('bittersweet') {
+        steps{
+            echo "honeylemon"
+         }
+         }
+         stage ('new dawn') {
+        steps{
+            echo "awaken"
+         }
+         }
+         stage ('freedom') {
+        steps{
+            echo "dont take for granted"
+         }
+         }
+         stage ('run to greatness') {
+        steps{
+            echo "steady to the top"
+         }
+         }
+         stage ('find your path') {
+        steps{
+            echo "keep it narrow"
+         }
+         }
+         stage ('all for one') {
+        steps{
+            echo "one for all"
+         }
+         }
+        stage ('last man standing') {
+        steps{
+            echo "wins it all"
+         }
+         }
+    }
+}
